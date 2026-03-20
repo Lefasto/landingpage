@@ -34,35 +34,28 @@ li {
 .main-text {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 100px 0;
+    justify-content: space-between;
+    padding: 100px 100px;
     background: #1F2937;
 }
 
 .heading {
-    display: flex;
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
 .subtext {
-    display: flex;
-    justify-content: space-between;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .image {
-    box-sizing: border-box;
-    border: 1px solid gray;
-    width: 400px;
+    background-image: url(images/awesome.png);
+    background-size: 400px;
+    min-width: 400px;
     height: 200px;
-    background: gray;
-}
-
-.text {
-    padding: 20px;
+    margin-left: 50px;
 }
 
 #signup-btn {
