@@ -145,3 +145,13 @@ li {
     background: #3882F6;
     color: #F9FAF8;
 }
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #1F2937;
+    color: #F9FAF8;
+    height: 70px;
+}
