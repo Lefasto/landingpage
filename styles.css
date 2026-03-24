@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
+    margin: 0 1070px;
+    background: black;
 }
 
 .header {
@@ -35,7 +37,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 100px;
+    padding: 70px 70px;
     background: #1F2937;
 }
 
@@ -64,6 +66,10 @@ li {
     border-radius: 5px;
     margin-top: 5px;
     padding: 5px 15px;
+}
+
+#information {
+    background: white;
 }
 
 .information-img {
@@ -115,7 +121,7 @@ li {
 }
 
 #call {
-    margin: 70px auto;
+    margin: 0px auto;
     border-radius: 5px;
     width: 850px;
     height: 100px;
@@ -125,6 +131,12 @@ li {
     background: #3882F6;
     color: #F9FAF8;
     padding-right: 70px;
+}
+
+#callToArms {
+    background: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 #call-txt {
