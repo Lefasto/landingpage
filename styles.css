@@ -113,3 +113,35 @@ li {
     display: flex;
     justify-content: right;
 }
+
+#call {
+    margin: 70px auto;
+    border-radius: 5px;
+    width: 850px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882F6;
+    color: #F9FAF8;
+    padding-right: 70px;
+}
+
+#call-txt {
+    padding-left: 70px;
+}
+
+#call-heading {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#call-btn {
+    width: 90px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    border: solid 1px #F9FAF8;
+    background: #3882F6;
+    color: #F9FAF8;
+}
