@@ -93,3 +93,23 @@ li {
     font-size: 18px;
     color: #1F2937;
 }
+
+#cite {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    color: #1F2937;
+    padding: 100px;
+}
+
+#cite-txt {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+}
+
+#cite-signing {
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+}
